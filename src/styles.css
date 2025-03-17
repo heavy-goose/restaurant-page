@@ -1,0 +1,45 @@
+:root {
+    font-family: Cutive, Georgia, 'Times New Roman', Times, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav button {
+    border: none;
+    background-color: white;
+    font-family: inherit;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+nav button:hover {
+    color: goldenrod;
+}
+
+nav button:active {
+    color: rgb(170, 124, 9);
+    transition: none;
+}
+
+#content {
+    height: calc(100vh - 80px);
+}
+
